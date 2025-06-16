@@ -139,6 +139,9 @@ img {
 
     .container {
         max-width: 100%;
+    }
+
+    .row {
         flex-wrap: wrap;
     }
 
@@ -148,7 +151,7 @@ img {
 
 
     .container {
-        display: flex;
+        padding: 0px;
     }
 
     .container h2 {
@@ -156,19 +159,22 @@ img {
         margin: 0 auto;
     }
 
-    .why-us h2 {
-        margin-bottom: 30px;
-    }
-
-    .steps .row {
-        width: 100%;
+    .row {
         flex-direction: column;
         align-items: center;
     }
 
+    .col {
+        margin-bottom: 30px;
+    }
+
     .steps .col {
         width: 100%;
-        padding: 30px;
     }
+
+    .col img {
+        height: 400px;
+    }
+
 
 }
