@@ -157,6 +157,7 @@ img {
     .container h2 {
         text-align: center;
         margin: 0 auto;
+        padding-bottom: 30px;
     }
 
     .row {
@@ -166,6 +167,10 @@ img {
 
     .col {
         margin-bottom: 30px;
+    }
+
+    .lessons .col {
+        padding: 0px;
     }
 
     .steps .col {
