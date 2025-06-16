@@ -138,9 +138,23 @@ img {
     }
 
     .container {
-        max-width: 750px;
+        max-width: 100%;
     }
 
 }
 
-@media all and (max-width: 480px) {}
+@media all and (max-width: 480px) {
+
+
+    .site-header {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+
+
+
+}
