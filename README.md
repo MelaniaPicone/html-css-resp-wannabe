@@ -7,7 +7,7 @@ Usando le CSS media queries, trasforma il repo “html-responsive-wannabe” in 
 <li>mobile: dai 480px in giù,</li></ul>
 L'html e il css presenti non possono essere modificati, possiamo solo aggiungere il nostro codice per modificare l'aspetto nelle due risoluzioni indicate.<br>
 
-<b>Bonus:</b>
+<b>Bonus:</b><br>
 Sopra i 768px e fino ai 1160px il layout è un po’ troppo “rigido”! Come mai? <br>
 Aggiungiamo una media query per sistemare il layout e non far comparire la scrollbar orizzontale.<br>
 
