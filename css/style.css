@@ -139,6 +139,7 @@ img {
 
     .container {
         max-width: 100%;
+        flex-wrap: wrap;
     }
 
 }
@@ -146,15 +147,26 @@ img {
 @media all and (max-width: 480px) {
 
 
-    .site-header {
-        max-width: 100%;
-    }
-
     .container {
-        max-width: 100%;
+        display: flex;
     }
 
+    .container h2 {
+        text-align: center;
+        margin: 0 auto;
+    }
 
+    .why-us h2 {
+        margin-bottom: 30px;
+    }
 
+    .steps .row {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
 
-}
+    .steps .col {
+        width: 100%;
+        padding: 30px;
+    }
